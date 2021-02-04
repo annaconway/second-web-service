@@ -1,13 +1,17 @@
 {
-    "name": "first-web-service",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node ./src/index.js"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC"
+  "name": "first-web-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "nodemon" : "nodemon ./src/index.js -e js,html,css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
+}
